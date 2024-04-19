@@ -3,6 +3,7 @@ using GoodSong.Models;
 
 namespace GoodSong.Menus;
 
+
 internal class Menu
 {
     public void ExibirTituloOpcao(string titulo)
@@ -42,5 +43,16 @@ internal class Menu
     public virtual void Executar(Dictionary<string, Banda> bandasRegistradas)
     {
         Console.Clear();
+    }
+    public Album? CadeOAlbum(string album, Banda banda)
+    {
+        foreach (Album albumContido in banda.Albuns)
+        {
+            if (NormatizarNome(album) == NormatizarNome(albumContido.Nome))
+            {
+                return albumContido;
+            }
+        }
+        return null;
     }
 }

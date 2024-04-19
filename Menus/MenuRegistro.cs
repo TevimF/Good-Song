@@ -67,7 +67,8 @@ namespace GoodSong.Menus
             {
                 Console.Clear();
                 ExibirTituloOpcao("Registro de Álbuns");
-
+                MenuMostrarConteudo menuMostrarConteudo = new();
+                menuMostrarConteudo.MostrarBandasRegistradas(bandasRegistradas);
                 Console.WriteLine("Digite o nome da banda que o álbum pertence ou digite [0] para voltar ao menu: ");
                 string nomeBanda = Console.ReadLine()!;
                 if (nomeBanda == "0")

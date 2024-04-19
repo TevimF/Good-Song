@@ -1,5 +1,5 @@
 ﻿namespace GoodSong.Models;
-internal class Banda
+internal class Banda : IAvaliavel
 {
     private List<Album> albuns = new List<Album>();
     private List<Avaliacao> notas = new List<Avaliacao>();
@@ -38,7 +38,11 @@ internal class Banda
     {
         foreach (Album album in albuns)
         {
-            Console.WriteLine($"Álbum: {album.Nome} Duração:({album.DuracaoTotal}) min");
+            Console.WriteLine();
+            int espacos = 25 - album.Nome.Length;
+            string ocupaEspacos = string.Empty.PadLeft(espacos, ' ');
+            Console.WriteLine($"Álbum: {album.Nome} {ocupaEspacos} Avaliação: {album.Media} \nDuração:({album.DuracaoTotal}) min");
+            Console.WriteLine();
         }
     }
 }

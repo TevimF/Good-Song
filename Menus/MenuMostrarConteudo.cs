@@ -15,8 +15,6 @@ internal class MenuMostrarConteudo : Menu
         }
         else
         {
-
-            ExibirTituloOpcao("Mostrar Bandas adicionadas");
             Console.WriteLine("Estas são as bandas adicionadas: \n");
             foreach (Banda banda in bandasRegistradas.Values)
             {
@@ -58,6 +56,7 @@ internal class MenuMostrarConteudo : Menu
         void MostrarConteudo()
         {
             base.Executar(bandasRegistradas);
+            ExibirTituloOpcao("Mostrar Bandas adicionadas");
             MostrarBandasRegistradas(bandasRegistradas);
             Console.WriteLine("Digite o nome de uma banda que deseja ver ou digite [0] para voltar ao menuOptions:");
             string resposta = Console.ReadLine()!;

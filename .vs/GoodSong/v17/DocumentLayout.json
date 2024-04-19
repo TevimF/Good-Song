@@ -1,12 +1,60 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|t:\\tevimf projects\\alura\\curso- c#-alura\\good-song\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|t:\\tevimf projects\\alura\\curso- c#-alura\\good-song\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T17:47:12.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\Menus\\Menu.cs",
+              "RelativeDocumentMoniker": "Menus\\Menu.cs",
+              "ToolTip": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\Menus\\Menu.cs",
+              "RelativeToolTip": "Menus\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T17:43:41.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -13,3 +13,17 @@ T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\refint\GoodS
 T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.pdb
 T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.genruntimeconfig.cache
 T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\ref\GoodSong.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\Newtonsoft.Json.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\OpenAI_API.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.csproj.AssemblyReference.cache
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.csproj.Up2Date
