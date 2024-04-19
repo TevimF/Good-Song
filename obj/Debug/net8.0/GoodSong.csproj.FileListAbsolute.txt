@@ -1,0 +1,15 @@
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\GoodSong.exe
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\GoodSong.deps.json
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\GoodSong.runtimeconfig.json
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\GoodSong.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\bin\Debug\net8.0\GoodSong.pdb
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.GeneratedMSBuildEditorConfig.editorconfig
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.AssemblyInfoInputs.cache
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.AssemblyInfo.cs
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.csproj.CoreCompileInputs.cache
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.sourcelink.json
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\refint\GoodSong.dll
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.pdb
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\GoodSong.genruntimeconfig.cache
+T:\TevimF Projects\Alura\Curso- C#-Alura\Good-Song\obj\Debug\net8.0\ref\GoodSong.dll

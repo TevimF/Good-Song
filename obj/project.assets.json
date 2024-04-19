@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\GoodSong\\GoodSong.csproj",
+      "projectUniqueName": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\GoodSong.csproj",
       "projectName": "GoodSong",
-      "projectPath": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\GoodSong\\GoodSong.csproj",
+      "projectPath": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\GoodSong.csproj",
       "packagesPath": "C:\\Users\\estev\\.nuget\\packages\\",
-      "outputPath": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\GoodSong\\obj\\",
+      "outputPath": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\estev\\AppData\\Roaming\\NuGet\\NuGet.Config",

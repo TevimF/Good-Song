@@ -1,4 +1,5 @@
-﻿class Album
+﻿namespace GoodSong.Models;
+internal class Album
 {
     private List<Musica> musicas = new List<Musica>();
 

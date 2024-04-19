@@ -1,4 +1,5 @@
-﻿class Musica
+﻿namespace GoodSong.Models;
+internal class Musica
 {
     public Musica(Banda artista, string nome)
     {
