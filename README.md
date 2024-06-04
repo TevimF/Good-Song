@@ -160,10 +160,10 @@ void Start()
     MenuBoasVindas menuBoasVindas = new();
     menuBoasVindas.Executar();
    
-    MenuOpcoes menuOpcoes = new();
-    menuOpcoes.Executar(bandasRegistradas);
-    }
-    Start();
+MenuOpcoes menuOpcoes = new();
+menuOpcoes.Executar(bandasRegistradas);
+}
+Start();
 </code>
 </pre>
 
