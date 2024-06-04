@@ -20,6 +20,8 @@ internal class MenuExcluirConteudo : Menu
             string exclusao = Console.ReadLine()!;
             if (NormatizarNome(exclusao) == NormatizarNome("banda"))
             {
+                Console.WriteLine("Insira o nome da banda que deseja excluir");
+                exclusao = Console.ReadLine()!;
                 if (CadeEla(exclusao, bandasRegistradas) == null)
                 {
                     Console.WriteLine("Banda não encontrada");
@@ -78,9 +80,18 @@ internal class MenuExcluirConteudo : Menu
             {
                 Banda banda = CadeEla(nomeBanda, bandasRegistradas)!;
                 banda.ExibirDiscografia();
-                Console.WriteLine("Insira o nome do album que deseja deletar");
-                string nomeAlbum = Console.ReadLine()!;
-                if (CadeOAlbum(nomeAlbum, banda) == null)
+                banda.ExibirMusicasDaBanda();
+                Console.WriteLine("Insira o nome da musica ou album que deseja deletar");
+                string selecao = Console.ReadLine()!;
+                if (CadeAMusica(selecao, banda)!= null)
+                {
+                    Musica musica = CadeAMusica(selecao, banda)!;
+                    banda.Musicas.Remove(musica);
+                    Console.WriteLine($"Musica {musica.Nome} deletada com sucesso");
+                    Thread.Sleep(1000);
+                    ExcluirConteudo();
+                }
+                else if (CadeOAlbum(selecao, banda) == null)
                 {
                     Console.WriteLine("Album não encontrado");
                     Thread.Sleep(1000);
@@ -88,7 +99,7 @@ internal class MenuExcluirConteudo : Menu
                 }
                 else
                 {
-                    Album album = CadeOAlbum(nomeAlbum, banda)!;
+                    Album album = CadeOAlbum(selecao, banda)!;
                     banda.Albuns.Remove(album);
                     Console.WriteLine("Album deletado com sucesso");
                     Thread.Sleep(1000);

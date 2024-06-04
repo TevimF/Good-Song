@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-MenuSalvarConteudo",
+      "appliesTo": "Menus/MenuSalvarConteudo.cs",
+      "type": "launch"
+    }
+  ]
+}

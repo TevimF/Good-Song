@@ -1,6 +1,8 @@
 ﻿namespace GoodSong.Models;
+
 internal class Banda : IAvaliavel
 {
+    private List<Musica> musicas = new List<Musica>();
     private List<Album> albuns = new List<Album>();
     private List<Avaliacao> notas = new List<Avaliacao>();
 
@@ -23,6 +25,7 @@ internal class Banda : IAvaliavel
         }
     }
     public List<Album> Albuns => albuns;
+    public List<Musica>? Musicas => musicas;
 
     public void AdicionarAlbum(Album album)
     {
@@ -33,9 +36,17 @@ internal class Banda : IAvaliavel
     {
         notas.Add(nota);
     }
-
+    public void AdicionarMusica(Musica musica)
+    {
+        musicas.Add(musica);
+    }
     public void ExibirDiscografia()
     {
+        if (albuns.Count <= 0)
+        {
+            Console.WriteLine("Nenhum álbum registrado.");
+            return;
+        }
         foreach (Album album in albuns)
         {
             Console.WriteLine();
@@ -43,6 +54,19 @@ internal class Banda : IAvaliavel
             string ocupaEspacos = string.Empty.PadLeft(espacos, ' ');
             Console.WriteLine($"Álbum: {album.Nome} {ocupaEspacos} Avaliação: {album.Media} \nDuração:({album.DuracaoTotal}) min");
             Console.WriteLine();
+        }
+    }
+    public void ExibirMusicasDaBanda()
+    {
+        if (musicas.Count <= 0)
+        {
+            Console.WriteLine("Nenhuma música registrada.");
+            return;
+        }
+        for (int i = 0; i < musicas.Count; i++)
+        {
+            Musica musica = musicas[i];
+            Console.WriteLine($"{i + 1} - Música: {musica.Nome} ({(float)musica.Duracao/1000} segundos)");
         }
     }
 }

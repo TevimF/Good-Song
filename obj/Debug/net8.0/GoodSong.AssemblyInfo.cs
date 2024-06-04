@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoodSong")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45bf7ec71897b2f7b8bd1a98d969b343e3a3b912")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5128fc3abe4141d4d146c8512ad2e27e1001bf35")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoodSong")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoodSong")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

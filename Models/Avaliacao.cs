@@ -1,4 +1,6 @@
-﻿namespace GoodSong.Models;
+﻿using System.Text.Json.Serialization;
+
+namespace GoodSong.Models;
 
 internal class Avaliacao
 {

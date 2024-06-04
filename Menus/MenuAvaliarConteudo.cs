@@ -5,51 +5,71 @@ namespace GoodSong.Menus;
 
 internal class MenuAvaliarConteudo : Menu
 {
+
     public override void Executar(Dictionary<string, Banda> bandasRegistradas) // sobrescreve o método Executar da classe pai
     {
+        MenuMostrarConteudo menuMostrarConteudo = new();
+        AvaliacaoDeConteudo();
         
-        AvaliacaoDeConteudo();   // chama o método AvaliacaoDeBandas
         void AvaliacaoDeConteudo()
         {
             base.Executar(bandasRegistradas); // o base serve para chamar o método da classe pai
             ExibirTituloOpcao("Avaliação de Conteudo");
-            MenuMostrarConteudo menuMostrarConteudo = new();
-            menuMostrarConteudo.MostrarBandasRegistradas(bandasRegistradas); // chama o método MostrarBandasRegistradas da classe MenuMostrarConteudo
+            
             Console.WriteLine("Insira o que voce deseja avaliar ou digite voltar ao menu de opções: ");
             Console.WriteLine("[banda] [album] [menu]");
             string selecionada = Console.ReadLine()!;
-
-
-            if (NormatizarNome(selecionada) == NormatizarNome("banda"))
-            {
-                AvaliarBanda(selecionada);
-            }
-            else if (NormatizarNome(selecionada) == NormatizarNome("album"))
-            {
-                Console.WriteLine("Digite o nome da banda a qual o album pertence");
-                string banda = Console.ReadLine()!;
-                Banda? bandaSelecionada = CadeEla(banda, bandasRegistradas);
-                if (bandaSelecionada != null)
+            int paginaAtual = 1;
+            void PosConsole(){
+                if (NormatizarNome(selecionada) == NormatizarNome("banda"))
                 {
-                    AvaliarAlbum(bandaSelecionada);
+                    Console.Clear();
+                    menuMostrarConteudo.MostrarBandasRegistradas(bandasRegistradas, paginaAtual);
+                    Console.WriteLine("Digite o nome da banda que deseja avaliar, insira um espaço vazio para a próxima página [ ] ou digite [0] para sair");
+                    string banda = Console.ReadLine()!;
+                    if (banda == "0")
+                    {
+                        return;
+                    }
+                    else if (banda == " ")
+                    {
+                        paginaAtual++;
+                        PosConsole();
+                    }
+                    AvaliarBanda(banda);
+                }
+                else if (NormatizarNome(selecionada) == NormatizarNome("album"))
+                {
+                    Console.Clear();
+                    menuMostrarConteudo.MostrarBandasRegistradas(bandasRegistradas, paginaAtual);
+                    Console.WriteLine("Digite o nome da banda a qual o album pertence ou digite 0 para sair");
+                    string banda = Console.ReadLine()!;
+                    Banda? bandaSelecionada = CadeEla(banda, bandasRegistradas);
+                    if (bandaSelecionada != null)
+                    {
+                        AvaliarAlbum(bandaSelecionada);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Álbum não registrado, tente novamente");
+                        Thread.Sleep(1000);
+                        AvaliacaoDeConteudo();
+                    }
+                }
+                else if (NormatizarNome(selecionada) == NormatizarNome("menu"))
+                {
+                    return;
                 }
                 else
                 {
-                    Console.WriteLine("Banda não registrada, tente novamente");
+                    Console.WriteLine("Opção inválida");
                     Thread.Sleep(1000);
                     AvaliacaoDeConteudo();
                 }
+
             }
-            else if (NormatizarNome(selecionada) == NormatizarNome("menu"))
-            {
-                return;
-            }
-            else
-            {
-                Console.WriteLine("Opção inválida");
-                Thread.Sleep(1000);
-                AvaliacaoDeConteudo();
-            }
+            PosConsole();
+            
         }
         void AvaliarAlbum(Banda bandaSelecionada)
         {
@@ -57,6 +77,7 @@ internal class MenuAvaliarConteudo : Menu
             ExibirTituloOpcao("Avaliação de Albuns");
             bandaSelecionada.ExibirDiscografia();
             Console.WriteLine("Digite o nome do album que deseja avaliar ou digite [0] para voltar ao menuOptions: ");
+            menuMostrarConteudo.ExibirAlbuns(bandaSelecionada);
             string albumSelecionado = Console.ReadLine()!;
             if (albumSelecionado == "0")
             {
@@ -87,8 +108,10 @@ internal class MenuAvaliarConteudo : Menu
             }
             else if (CadeEla(selecionada, bandasRegistradas) != null)
             {
+                Console.Clear();
+                ExibirTituloOpcao($"Avaliar banda {selecionada}");
                 Banda banda = CadeEla(selecionada, bandasRegistradas)!; // pega a banda selecionada pelo usuário
-                Console.WriteLine("Insira a sua avaliação para a banda {0} de [0] a [10] ", banda.Nome);
+                Console.WriteLine("Insira a sua avaliação de [0] a [10] ");
                 Avaliacao nota = Avaliacao.Parse(Console.ReadLine()!); // converte a entrada do usuário para float
                 foreach (string nome in bandasRegistradas.Keys)
                 {
@@ -106,6 +129,7 @@ internal class MenuAvaliarConteudo : Menu
             {
                 Console.WriteLine("\nBanda não registrada, digite novamente");
                 Thread.Sleep(1000);
+                AvaliacaoDeConteudo();
             }
             AvaliacaoDeConteudo();
         }

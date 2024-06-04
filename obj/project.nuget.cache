@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gJTGdPO4lzERL2Zri3+vsd1sq5MW+jP+A6Tiohl30AVuCbggXJHB1YoPMtv9wfLVmBRn4lw+eahuqo8ZNpgXhg==",
+  "dgSpecHash": "OSntXdvM6No=",
   "success": true,
-  "projectFilePath": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\GoodSong.csproj",
+  "projectFilePath": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\GoodSong.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\estev\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\estev\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",

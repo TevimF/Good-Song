@@ -1,14 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\",
+  "WorkspaceRootPath": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|t:\\tevimf projects\\alura\\curso- c#-alura\\good-song\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|c:\\users\\estev\\source\\repos\\tevimf\\good-song\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|t:\\tevimf projects\\alura\\curso- c#-alura\\good-song\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|c:\\users\\estev\\source\\repos\\tevimf\\good-song\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|c:\\users\\estev\\source\\repos\\tevimf\\good-song\\menus\\menusalvarconteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:menus\\menusalvarconteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|c:\\users\\estev\\source\\repos\\tevimf\\good-song\\menus\\menuopcoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:menus\\menuopcoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|c:\\users\\estev\\source\\repos\\tevimf\\good-song\\models\\banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:models\\banda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|c:\\users\\estev\\source\\repos\\tevimf\\good-song\\models\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:models\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|c:\\users\\estev\\source\\repos\\tevimf\\good-song\\menus\\menumostrarconteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:menus\\menumostrarconteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|c:\\users\\estev\\source\\repos\\tevimf\\good-song\\filter\\linqorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:filter\\linqorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|c:\\users\\estev\\source\\repos\\tevimf\\good-song\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|c:\\users\\estev\\source\\repos\\tevimf\\good-song\\filter\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DFE5AE5-C046-4517-BB70-8A8F7AD903BC}|GoodSong.csproj|solutionrelative:filter\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,38 +50,146 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Menus\\Menu.cs",
+              "RelativeDocumentMoniker": "Menus\\Menu.cs",
+              "ToolTip": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Menus\\Menu.cs",
+              "RelativeToolTip": "Menus\\Menu.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAD4vz4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:23:58.033Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LinqOrder.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Filter\\LinqOrder.cs",
+              "RelativeDocumentMoniker": "Filter\\LinqOrder.cs",
+              "ToolTip": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Filter\\LinqOrder.cs",
+              "RelativeToolTip": "Filter\\LinqOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:38:43.681Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-06-04T21:37:58.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuOpcoes.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Menus\\MenuOpcoes.cs",
+              "RelativeDocumentMoniker": "Menus\\MenuOpcoes.cs",
+              "ToolTip": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Menus\\MenuOpcoes.cs",
+              "RelativeToolTip": "Menus\\MenuOpcoes.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvzgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T21:31:46.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Banda.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Models\\Banda.cs",
+              "RelativeDocumentMoniker": "Models\\Banda.cs",
+              "ToolTip": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Models\\Banda.cs",
+              "RelativeToolTip": "Models\\Banda.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAADwv0QAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:23:07.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Musica.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Models\\Musica.cs",
+              "RelativeDocumentMoniker": "Models\\Musica.cs",
+              "ToolTip": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Models\\Musica.cs",
+              "RelativeToolTip": "Models\\Musica.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwCMAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T19:53:51.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuMostrarConteudo.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Menus\\MenuMostrarConteudo.cs",
+              "RelativeDocumentMoniker": "Menus\\MenuMostrarConteudo.cs",
+              "ToolTip": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Menus\\MenuMostrarConteudo.cs",
+              "RelativeToolTip": "Menus\\MenuMostrarConteudo.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAA2wEUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:54:25.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LinqFilter.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Filter\\LinqFilter.cs",
+              "RelativeDocumentMoniker": "Filter\\LinqFilter.cs",
+              "ToolTip": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Filter\\LinqFilter.cs",
+              "RelativeToolTip": "Filter\\LinqFilter.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:52:53.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuSalvarConteudo.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Menus\\MenuSalvarConteudo.cs",
+              "RelativeDocumentMoniker": "Menus\\MenuSalvarConteudo.cs",
+              "ToolTip": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Menus\\MenuSalvarConteudo.cs",
+              "RelativeToolTip": "Menus\\MenuSalvarConteudo.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAwwFoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:42:39.586Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\Program.cs",
+              "ToolTip": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T17:47:12.708Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\Menus\\Menu.cs",
-              "RelativeDocumentMoniker": "Menus\\Menu.cs",
-              "ToolTip": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\Menus\\Menu.cs",
-              "RelativeToolTip": "Menus\\Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:43:41.2Z",
               "EditorCaption": ""
             }
           ]

@@ -55,4 +55,19 @@ internal class Menu
         }
         return null;
     }
+    public Musica? CadeAMusica(string musica, Banda banda)
+    {
+        if (banda.Musicas == null)
+        {
+            return null;
+        }
+        foreach (Musica musicaContida in banda.Musicas)
+        {
+            if (NormatizarNome(musica) == NormatizarNome(musicaContida.Nome!))
+            {
+                return musicaContida;
+            }
+        }
+        return null;
+    }
 }

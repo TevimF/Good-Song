@@ -39,7 +39,7 @@ namespace GoodSong.Menus
             {
                 Console.Clear();
                 ExibirTituloOpcao("Registro de Bandas");
-                Console.WriteLine("Digite o nome da banda a ser registrada ou digite 0 para sair: ");
+                Console.WriteLine("Digite o nome da banda a ser registrada ou digite [0] para sair: ");
                 string nomeBanda = Console.ReadLine()!;
                 Banda banda = new(nomeBanda); //cria uma banda com a entrada do usuário
                 if (nomeBanda == "0")

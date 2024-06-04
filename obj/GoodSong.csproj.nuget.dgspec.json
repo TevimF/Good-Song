@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\GoodSong.csproj": {}
+    "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\GoodSong.csproj": {}
   },
   "projects": {
-    "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\GoodSong.csproj": {
+    "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\GoodSong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\GoodSong.csproj",
+        "projectUniqueName": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\GoodSong.csproj",
         "projectName": "GoodSong",
-        "projectPath": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\GoodSong.csproj",
+        "projectPath": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\GoodSong.csproj",
         "packagesPath": "C:\\Users\\estev\\.nuget\\packages\\",
-        "outputPath": "T:\\TevimF Projects\\Alura\\Curso- C#-Alura\\Good-Song\\obj\\",
+        "outputPath": "C:\\Users\\estev\\source\\repos\\TevimF\\Good-Song\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\estev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
