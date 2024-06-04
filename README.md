@@ -165,33 +165,11 @@ void Start()
     }
     Start();
 </code>
-
-</pre>
-
-<h2>Métodos Adicionais</h2>
-
-<h3>Filtrar Gêneros</h3>
-<pre>
-<code>
-        public static void FiltrarGeneros(List&lt;Musica&gt; musicas)
-        {
-            // Seleciona todos os gêneros musicais e remove duplicatas
-            var todosGeneros = musicas
-                .SelectMany(musica => musica.Genero.Split(',').Select(g => g.Trim()))
-                .Distinct()
-                .ToList();
-        
-            foreach (var genero in todosGeneros)
-            {
-                Console.WriteLine(genero);
-            }
-        }
-</code>
 </pre>
 
 <h2>Observações</h2>
 <ul>
-<li>Certifique-se de que as URLs da API estão corretas e acessíveis.</li>
+<li>Certifique-se de que as URLs da API estão corretas e acessíveis pois foram pegos da aula na Alura e podem estar inacessiveis pelo github.</li>
 <li>Valide os dados recebidos da API antes de processá-los para evitar erros de execução.</li>
 </ul>
 
